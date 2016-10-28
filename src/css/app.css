@@ -1,0 +1,65 @@
+html,body,.container {
+    height:100%;
+}
+
+body {
+  padding-top: 50px;
+}
+
+.row .content {
+  height: 100vh;
+}
+
+.navlist {
+  margin: 10px 25px 10px 25px;
+  height: 100%;
+  background: #454646;
+  color: #fcfcfc;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.content {
+    display:table;
+    width: 100%;
+    margin-top: -50px;
+    padding: 50px 0 0 0; /*set left/right padding according to needs*/
+    box-sizing: border-box;
+}
+
+.row {
+    height: 100%;
+    display: table-row;
+}
+
+.row .no-float {
+  display: table-cell;
+  float: none;
+}
+
+/* NAV LIST */
+.navlist {
+  padding: 0;
+}
+.navlist > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+  .navlist > ul > li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+  }
+
+  /* Change the link color on hover */
+  .navlist > ul > li a:hover {
+      background-color: #555;
+      color: white;
+  }

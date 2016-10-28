@@ -1,8 +1,7 @@
-# Flat File Markdown Server
+# Welcome to the Flat File Markdown Server
 This website works dynamically per directory structure of `markdown/`. Any directory that you create in `markdown/` will create a submenu and any markdown (`.md`) files will be served as pages and be listed in their appropriate subfolders.
 
-Traditional Markdown
------
+## Traditional Markdown
 Your usual markdown language is rendered normally. All markdown is rendered using [Strapdown.js](http://strapdownjs.com).
 
 ```python
@@ -14,14 +13,5 @@ class node:
         return '[' + str(self.data) + ']'
 ```
 
-Installation
------
-To get started, run the upgrade script. You may need to give it execute permissions.
-```bash
-chmod a+x upgrade.sh
-./upgrade.sh
-```
-
-Lastly
------
+### Lastly
 Furthermore, all headers on a particular page generate a Table of Contents on the Navbar.

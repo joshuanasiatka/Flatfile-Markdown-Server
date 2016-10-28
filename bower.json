@@ -1,0 +1,28 @@
+{
+  "name": "dictionary",
+  "authors": [
+    "Joshua Nasiatka <joshuanasiatka@gmail.com>"
+  ],
+  "description": "A programmer's dictionary guide",
+  "main": "",
+  "keywords": [
+    "programmer",
+    "guide",
+    "dictionary"
+  ],
+  "license": "MIT",
+  "homepage": "https://ref.bitcraftlabs.net",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}

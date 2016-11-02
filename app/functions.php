@@ -32,7 +32,7 @@ function make_menu($conf) {
       </div>
   ");
   add_item("
-  <div class='collapse navbar-collapse' id='#navigation'>
+  <div class='collapse navbar-collapse' id='navigation'>
       <ul class='nav navbar-nav'>
           <li><a href='?'>Home</a></li>
           <li><a href='?page=about.md'>About</a></li>");
